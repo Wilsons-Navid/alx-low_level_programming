@@ -2,7 +2,15 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-/* main function;entry level */
+
+/**
+ * main - Entry point
+ *
+ * Description: 'Positive anything is better than negative nothing'
+ *
+ * Return: Always 0(Succes)
+ */
+
 int main(void)
 {
 		int n;
