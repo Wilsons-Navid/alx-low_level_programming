@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * prints all single digit numbers of base 10
- * main - programs list
- * you are not allowed to use variable of type char
- * you can only use putchar function
+ * main - program that prints all single digit numbers of base 10 starting from
+ * you are not allowed to use any variable of type char
+ * you can only use the putchar function
  * Return: 0
  */
+
 int main(void)
 {
 int d;
