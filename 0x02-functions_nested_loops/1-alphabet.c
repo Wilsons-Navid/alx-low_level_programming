@@ -1,9 +1,5 @@
 #include <stdio.h>
-int main(void)
-/** main - prints lower case
- * retun : 0 always
- */
-{
+
 void print_alphabet(void)
 
 /*declaring variable */
@@ -16,5 +12,5 @@ putchar(ch);
 }
 putchar('\n');
 }
-}
+
 

@@ -1,13 +1,19 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
- * main - program that prints putchar
- * return: always 0
+ * main - program that prints "_putchar"
+ * return: init
  */
 int main(void)
 {
-k = _putchar
-putchar(k);
+int n = 0;
+char str_put[8] = "_putchar";
+
+while (n < 8)
+{
+putchar(str_put[n]);
+n += 1;
 }
 putchar('\n');
 return (0);
+}
