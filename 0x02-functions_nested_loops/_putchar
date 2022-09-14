@@ -1,0 +1,11 @@
+/**
+* _putcher - writes the character c to stdout
+*@c : the character print
+*Return : on success 1
+*on erro, -1 is returned, and errno is appropriately
+*/
+
+int _putchar(char c)
+{
+return (write(1, &C, 1));
+}

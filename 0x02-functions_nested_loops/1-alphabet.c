@@ -1,16 +1,18 @@
-#include <stdio.h>
+#include "main.h"
 
+/**
+ * print_alphabet -  lower case letters
+ * Return: Always  0
+ */
 void print_alphabet(void)
-
-/*declaring variable */
 {
-int ch;
-for ( ch = 'a'; ch <= 'z'; ch++)
+char c;
+for (c ='a'; c <= 'z'; c++)
 {
-putchar(ch);
+_putchar(c);
+}
+_putchar('\n');
+}
 
-}
-putchar('\n');
-}
 
 
