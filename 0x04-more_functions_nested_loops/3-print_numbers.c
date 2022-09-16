@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
+
 /**
- * print_numbers - from 0 to 9
+ * print_numbers - prints numbers from 0 to 9
+ *
  * Return: returns nothing
  */
 
@@ -13,5 +15,5 @@ for (n = 48; n < 58; n++)
 {
 putchar(n);
 }
-putchar(10);
-}	
+putchar('\n');
+}
