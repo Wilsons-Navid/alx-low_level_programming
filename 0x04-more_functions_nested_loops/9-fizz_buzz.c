@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - program to print the reqiured res
- * Return: return 0
+ * main - program to print the reqiure
+ * Return:  0
  */
 
 int main(void)
