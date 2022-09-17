@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints a diagonal
+ * print_diagonal - prints a diagonal with this characters
  * @n: parameter
  * Return: returns nothing
  */
@@ -23,7 +23,7 @@ if (len == (n - 1))
 {
 continue;
 }
-putchar('\n'); 
+putchar('\n');
 }
 }
 putchar('\n');
