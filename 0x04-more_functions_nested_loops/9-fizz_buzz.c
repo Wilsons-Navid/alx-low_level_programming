@@ -30,6 +30,15 @@ else
 printf("Buzz");
 }
 }
+else if (num % 3 == 0)
+{
+printf("Fizz ");
+}
+else
+{
+printf("%d", num);
+}
+num++;
 }
 return (0);
 }
