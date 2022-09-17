@@ -19,7 +19,7 @@ for (space = 0; space < len; space++)
 putchar(' ');
 }
 putchar('\\');
-if (len == (n-1))
+if (len == (n - 1))
 {
 continue;
 }
