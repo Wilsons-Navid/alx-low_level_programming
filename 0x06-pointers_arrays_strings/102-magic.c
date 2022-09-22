@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include "main.h"
+
 /*
  * main - function
+ * @a: array of int
+ * @n: int
+ * @p: int
  * Return: 0
  */
 
