@@ -4,7 +4,7 @@
 /**
  * _sqrt_recursion - calculates the square root of a number
  * @n: int
- * Return: Natural sqrt of a number 
+ * Return: Natural sqrt of a number
  */
 
 int _sqrt_recursion(int n)
@@ -25,10 +25,10 @@ return (natural_root (n, 0));
 
 int natural_root(int n, int i)
 {
-if ( i * i > n)
+if (i * i > n)
 return (-1);
 if (i * i == n)
 return (i);
-else 
+else
 return (natural_root(n, i + 1));
 }
