@@ -4,7 +4,7 @@
 /**
  * _print_rev_recursion - function to print reverse recursion
  * Return: Always 0
- * @*s: pointer
+ * @s: pointer
  */
 
 void _print_rev_recursion(char *s)
