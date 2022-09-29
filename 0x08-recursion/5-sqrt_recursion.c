@@ -13,7 +13,7 @@ if (n < 0)
 {
 return (-1);
 }
-return (natural_root (n, 0));
+return (natural_root(n, 0));
 }
 
 /**
