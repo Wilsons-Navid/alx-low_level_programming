@@ -1,2 +1,2 @@
-int main (int argc, char *argv[]);
-char _putchar();
+int _putchar(char c);
+int check_num(char *str);
